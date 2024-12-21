@@ -10,12 +10,9 @@ const contactSchema = new Schema(
       type: String,
       required: true,
     },
-    email: {
-      type: String,
-    },
+    email: String,
     isFavourite: {
       type: Boolean,
-      required: true,
       default: false,
     },
     contactType: {
@@ -27,6 +24,7 @@ const contactSchema = new Schema(
   },
   {
     timestamps: true,
+    versionKey: false,
     createdAt: Date.now,
     updatedAt: Date.now,
   },
