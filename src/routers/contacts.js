@@ -7,13 +7,13 @@ import {
   deleteContactController,
 } from '../controllers/contacts.js';
 import { ctrlWrapper } from '../utils/ctrlWrapper.js';
-import { validateBody } from '../middlewares/validateBody.js';
+import { validateBody } from '../middlewars/validateBody.js';
 import {
   createContactSchema,
   updateContactSchema,
 } from '../validation/contacts.js';
-import { isValidId } from '../middlewares/isValidId.js';
-import { authenticate } from '../middlewares/authenticate.js';
+import { isValidId } from '../middlewars/isValidId.js';
+import { authenticate } from '../middlewars/authenticate';
 
 const router = Router();
 
