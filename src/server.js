@@ -2,8 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import { logger } from './middlewars/logger.js';
 import dotenv from 'dotenv';
-import { errorHandler } from './middlewares/errorHandler.js';
-import { notFoundHandler } from './middlewares/notFoundHandler.js';
+import { errorHandler } from './middlewars/errorHandler.js';
+import { notFoundHandler } from './middlewars/notFoundHandler.js';
 import router from './routers/index.js';
 import cookieParser from 'cookie-parser';
 
