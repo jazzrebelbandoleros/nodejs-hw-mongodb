@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { logger } from './middlewares/logger.js';
+import { logger } from './middlewars/logger.js';
 import dotenv from 'dotenv';
 import { errorHandler } from './middlewares/errorHandler.js';
 import { notFoundHandler } from './middlewares/notFoundHandler.js';
