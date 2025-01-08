@@ -13,7 +13,7 @@ import {
   updateContactSchema,
 } from '../validation/contacts.js';
 import { isValidId } from '../middlewars/isValidId.js';
-import { authenticate } from '../middlewars/authenticate';
+import { authenticate } from '../middlewars/authenticate.js';
 
 const router = Router();
 
